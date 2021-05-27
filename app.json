@@ -1,8 +1,8 @@
 {
-  "name": "Strapi",
-  "description": "Strapi Heroku 1 click deploy button",
+  "name": "Co3coin Finance Forntend Strapi",
+  "description": "Co3coin Strapi Heroku 1 click deploy button",
   "keywords": ["strapi", "heroku"],
-  "repository": "https://github.com/strapi/strapi-heroku-template",
+  "repository": "https://github.com/co3coin-finance/strapi-heroku-template",
   "addons": ["heroku-postgresql:hobby-dev"],
   "image": "heroku/nodejs",
   "buildpacks": [
