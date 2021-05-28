@@ -7,7 +7,7 @@
   "image": "heroku/nodejs",
   "buildpacks": [
     {
-      "url": "heroku/nodejs"
+      "url": "https://github.com/co3coin-finance/heroku-buildpack-nodejs"
     }
   ]
 }
