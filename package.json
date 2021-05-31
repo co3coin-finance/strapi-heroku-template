@@ -1,8 +1,8 @@
 {
-  "name": "co3coin-fe-strapi",
+  "name": "co3coin-finance-strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "Co3coin Frontend Strapi.",
+  "description": "Co3coin Finance Strapi.",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi develop",
