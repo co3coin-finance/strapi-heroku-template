@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wallets",
+  "info": {
+    "name": "Wallet",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "owner": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "biginteger"
+    },
+    "history_len": {
+      "type": "integer"
+    },
+    "history_hash": {
+      "type": "json"
+    },
+    "wallet_key": {
+      "type": "string"
+    },
+    "secret_key": {
+      "type": "password"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
